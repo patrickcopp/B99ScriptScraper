@@ -42,8 +42,8 @@ if __name__ == "__main__":
         if epCount==4 and seasonEp==12:
             seasonEp+=1
             continue
-        f= open('C:/Users/Patrick Copp/Desktop/Episode Scripts/'+str(epCount)+'\\s'+str(epCount)+'e'+str(seasonEp)+'.txt',"w+")
-        #print('C:/Users/Patrick Copp/Desktop/Episode Scripts/'+str(epCount)+'\\s'+str(epCount)+'e'+str(seasonEp)+'.txt')
+        f= open('*path*+'+str(epCount)+'\\s'+str(epCount)+'e'+str(seasonEp)+'.txt',"w+")
+        #print('*path*+'+str(epCount)+'\\s'+str(epCount)+'e'+str(seasonEp)+'.txt')
         f.write(str(episodeScripts[i]))
         f.close()
         if seasonEp==episodeCounts[epCount-1]:
